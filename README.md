@@ -61,13 +61,14 @@ heart-attack-prediction/
 │   ├── 3_model_training_gridsearch.ipynb   # GridSearchCV on multiple models
 │   └── 4_best_model_retrain_eval.ipynb     # Final training + evaluation
 │
-├── models/
+├── best model/
 │   └── best_model.pkl            # Saved best model (joblib)
-│
-├── X_train.csv
-├── X_test.csv
-├── y_train.csv
-├── y_test.csv
+│ 
+├── models/
+|  └──X_train.csv
+|  └── X_test.csv
+|  └── y_train.csv
+|  └── y_test.csv
 │
 └── README.md                     # Project documentation
 ```
@@ -137,9 +138,3 @@ heart-attack-prediction/
 **Rajveer Singh**  
 Aspiring AI/ML Engineer | B.Tech CSE  
 GitHub: [@rajveersingh](https://github.com/rajveersingh)
-
----
-
-## 📄 License
-
-This project is open-source and free to use under the MIT License.
